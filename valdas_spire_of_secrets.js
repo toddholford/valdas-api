@@ -55,7 +55,7 @@ const valdasSpireOfSecrets = {
                                 },
                                 "creature type": "Humanoid",
                                 "size": "Small",
-                                "speed": "Slow",
+                                "speed": 30,
                                 "special abilities": [
                                     {
                                         "id": "1",
@@ -112,7 +112,7 @@ const valdasSpireOfSecrets = {
                                 },
                                 "creature type": "Humanoid",
                                 "size": "Small",
-                                "speed": "Slow",
+                                "speed": 30,
                                 "special abilities": [
                                     {
                                         "id": "1",
@@ -169,7 +169,7 @@ const valdasSpireOfSecrets = {
                                 },
                                 "creature type": "Humanoid",
                                 "size": "Small",
-                                "speed": "Slow",
+                                "speed": 30,
                                 "special abilities": [
                                     {
                                         "id": "1",
