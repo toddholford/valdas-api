@@ -1,0 +1,27 @@
+{
+  "count": 4,
+  "next": null,
+  "previous": null,
+  "results": [
+    {
+      "name": "Geppettin",
+      "url": "http://localhost:8000/api/v1/race/1/"
+    },
+    {
+      "name": "Mandrake",
+      "url": "http://localhost:8000/api/v1/race/2/"
+    },
+    {
+      "name": "Mousefolk",
+      "url": "http://localhost:8000/api/v1/race/3/"
+    },
+    {
+      "name": "Spirithost",
+      "url": "http://localhost:8000/api/v1/race/4/"
+    },
+    {
+      "name": "Near-Human",
+      "url": "http://localhost:8000/api/v1/race/5/"
+    }
+  ]
+}

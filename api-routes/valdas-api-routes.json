@@ -1,0 +1,11 @@
+{
+  "race": "https://valdasspireofsecrects.co/api/v1/race/",
+  "class": "https://valdasspireofsecrects.co/api/v1/class/",
+  "subclass": "https://valdasspireofsecrects.co/api/v1/subclass/",
+  "customization": "https://valdasspireofsecrects.co/api/v1/customization/",
+  "equipment": "https://valdasspireofsecrects.co/api/v1/equipment/",
+  "spell": "https://valdasspireofsecrects.co/api/v1/spell/",
+  "appendix": "https://valdasspireofsecrects.co/api/v1/appendix/",
+  "specialAbilities": "https://valdasspireofsecrects.co/api/v1/appendix/",
+  "raceVariants": "https://valdasspireofsecrects.co/api/v1/appendix/"
+}

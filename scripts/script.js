@@ -1,5 +1,5 @@
 // Fetch the JSON file
-fetch('valdas_spire_of_secrets.json')
+fetch('valdas_spire_of_secrets_v2.json')
     .then(response => response.json())
     .then(data => {
         // Display the JSON data
