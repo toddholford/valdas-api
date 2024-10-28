@@ -1,11 +1,41 @@
-{
-  "race": "https://valdasspireofsecrects.co/api/v1/race/",
-  "class": "https://valdasspireofsecrects.co/api/v1/class/",
-  "subclass": "https://valdasspireofsecrects.co/api/v1/subclass/",
-  "customization": "https://valdasspireofsecrects.co/api/v1/customization/",
+[
+  {
+  "races": "https://valdasspireofsecrects.co/api/v1/races/",
+  "classes": "https://valdasspireofsecrects.co/api/v1/classes/",
+  "subclasses": "https://valdasspireofsecrects.co/api/v1/subclasses/",
+  "customizations": "https://valdasspireofsecrects.co/api/v1/customizations/",
   "equipment": "https://valdasspireofsecrects.co/api/v1/equipment/",
-  "spell": "https://valdasspireofsecrects.co/api/v1/spell/",
-  "appendix": "https://valdasspireofsecrects.co/api/v1/appendix/",
-  "specialAbilities": "https://valdasspireofsecrects.co/api/v1/appendix/",
-  "raceVariants": "https://valdasspireofsecrects.co/api/v1/appendix/"
-}
+  "spells": "https://valdasspireofsecrects.co/api/v1/spells/",
+  "appendices": "https://valdasspireofsecrects.co/api/v1/appendices/",
+  "specialAbilities": "https://valdasspireofsecrects.co/api/v1/specialabilities/",
+  "raceVariants": "https://valdasspireofsecrects.co/api/v1/racevariants/",
+  "classFeatures": "https://valdasspireofsecrects.co/api/v1/classFeatures/",
+  "classSubFeatures": "https://valdasspireofsecrects.co/api/v1/classSubFeatures/"
+  },
+
+
+  {
+    "count": 5,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "name": "Natural Philosopher",
+        "url": "http://localhost:8000/api/v1/classFeature/1/"
+      },
+      {
+        "name": "Bombs",
+        "url": "http://localhost:8000/api/v1/classFeature/2/"
+      }
+    ]
+  },
+
+
+  {
+    "name": "Natural Philosopher",
+    "description": "You have learned much about alchemy during your studies. Starting at 1st level, you can add half your proficiency bonus, rounded up, to any ability check you make to identify herbs, potions, poisons, or other alchemical substances. If the ability check already includes your proficiency bonus, you can add this bonus in addition to your normal proficiency bonus.",
+    "unlockLevels": [1],
+    "unlock": "ABILITY CHECK + (half of PROFICIENCY BONUS)",
+    "class": "http://localhost:8000/api/v1/class/1/"
+  }
+]
